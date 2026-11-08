@@ -1,2 +1,3 @@
 # .github
-Odin Informatics Organization Profile and Community Health Standards
+
+Odin Bilişim GitHub kuruluşunun profil sayfası ve ortak topluluk dosyaları (güvenlik politikası, katkı kuralları).

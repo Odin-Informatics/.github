@@ -1,10 +1,10 @@
-# Contributing to Odin Informatics
+# Contributing
 
-Thank you for your interest in contributing to the Odin Informatics open-source ecosystem!
+Thank you for your interest in the Odin Bilişim open-source tools (`odin-agent-sdk`, `odin-cli`). Both are experimental; please open an issue to discuss larger changes before sending a pull request.
 
 ## Code Quality & Engineering Standards
 
-All contributions must follow our high-reliability standards:
+Please follow these conventions:
 
 1. **Type Safety:** 
    - Python: Strict typing verified with `mypy`.
@@ -18,7 +18,9 @@ All contributions must follow our high-reliability standards:
    - `refactor:` for code structure improvements with no behavior change.
 3. **Automated Testing:**
    - Any new feature or bugfix must be accompanied by automated unit or integration tests.
-   - PRs must pass all matrix tests on GitHub Actions.
+   - PRs must pass the GitHub Actions checks.
+4. **Security:**
+   - Never commit API keys, tokens or `.env` files. See [SECURITY.md](SECURITY.md) for reporting vulnerabilities.
 
 ## Development Workflow
 
